@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { SelfieCapture } from './SelfieCapture';
 import { DocumentFrontCapture } from './DocumentFrontCapture';
