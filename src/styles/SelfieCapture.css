@@ -1,0 +1,27 @@
+/* Selfie Capture Specific Styles */
+.selfie-mirror {
+  transform: scaleX(-1);
+}
+
+.camera-frame.oval {
+  border-radius: 50%;
+  width: 200px;
+  height: 260px;
+}
+
+.selfie-capture .camera-container {
+  aspect-ratio: 3/4;
+}
+
+.selfie-capture .card-header {
+  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+}
+
+.selfie-capture .btn-primary {
+  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+  box-shadow: 0 4px 15px rgba(139, 92, 246, 0.4);
+}
+
+.selfie-capture .btn-primary:hover {
+  box-shadow: 0 8px 25px rgba(139, 92, 246, 0.6);
+}

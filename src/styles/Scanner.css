@@ -1,0 +1,32 @@
+/* Scanner Specific Styles */
+.mrz-header {
+  background: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);
+}
+
+.barcode-header {
+  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+}
+
+.camera-frame.barcode {
+  width: 240px;
+  height: 56px;
+  border-radius: 8px;
+}
+
+.scanner .btn-primary {
+  background: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%);
+  box-shadow: 0 4px 15px rgba(6, 182, 212, 0.4);
+}
+
+.scanner .btn-primary:hover {
+  box-shadow: 0 8px 25px rgba(6, 182, 212, 0.6);
+}
+
+.barcode-scanner .btn-primary {
+  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+  box-shadow: 0 4px 15px rgba(139, 92, 246, 0.4);
+}
+
+.barcode-scanner .btn-primary:hover {
+  box-shadow: 0 8px 25px rgba(139, 92, 246, 0.6);
+}

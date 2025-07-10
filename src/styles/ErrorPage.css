@@ -1,0 +1,79 @@
+/* Error Page Specific Styles */
+.error-page {
+  background: white;
+  border-radius: 16px;
+  padding: 32px 24px;
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.error-icon {
+  margin-bottom: 20px;
+}
+
+.error-emoji {
+  font-size: 48px;
+  display: block;
+}
+
+.error-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 12px;
+}
+
+.error-message {
+  color: #6b7280;
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+
+.error-tips {
+  background: #eff6ff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.error-tips h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1e40af;
+  margin-bottom: 12px;
+}
+
+.error-tips ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.error-tips li {
+  display: flex;
+  align-items: flex-start;
+  font-size: 14px;
+  color: #1e40af;
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.tip-bullet {
+  color: #3b82f6;
+  margin-right: 8px;
+  font-weight: bold;
+}
+
+.error-actions {
+  display: flex;
+  justify-content: center;
+}
+
+.error-actions .btn-primary {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 140px;
+}
