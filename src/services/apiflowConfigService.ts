@@ -14,13 +14,14 @@ class KycApi {
       // Return mock flow configuration to bypass 400 error
       console.log('[KYC API] Using mock flow config for user:', userId);
       const mockFlowConfig = {
-        steps: [
-          'country-selection',
-          'document-selection',
-          'document-front-capture',
-          'document-back-capture',
-          'selfie-capture',
-          'thank-you'
+        flow: [
+          'country_selection',
+          'document_type', 
+          'selfie',
+          'document-front',
+          'document-back',
+          'Scanning',
+          'complete'
         ],
         settings: {
           enableMRZ: true,
